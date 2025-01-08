@@ -1,0 +1,199 @@
+{
+  // --- Configurações de Janela ---
+  "window.menuBarVisibility": "classic",
+
+  // --- Configurações do Workbench ---
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.statusBar.visible": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#282A36",
+    "terminal.foreground": "#B7B8B9",
+    "terminalCursor.background": "#B7B8B9",
+    "terminalCursor.foreground": "#B7B8B9",
+    "terminal.ansiBlack": "#0C0D0E",
+    "terminal.ansiBlue": "#3182BD",
+    "terminal.ansiBrightBlack": "#737475",
+    "terminal.ansiBrightBlue": "#3182BD",
+    "terminal.ansiBrightCyan": "#80B1D3",
+    "terminal.ansiBrightGreen": "#31A354",
+    "terminal.ansiBrightMagenta": "#756BB1",
+    "terminal.ansiBrightRed": "#E31A1C",
+    "terminal.ansiBrightWhite": "#FCFDFE",
+    "terminal.ansiBrightYellow": "#DCA060",
+    "terminal.ansiCyan": "#80B1D3",
+    "terminal.ansiGreen": "#31A354",
+    "terminal.ansiMagenta": "#756BB1",
+    "terminal.ansiRed": "#E31A1C",
+    "terminal.ansiWhite": "#B7B8B9",
+    "terminal.ansiYellow": "#DCA060"
+  },
+  "workbench.sideBar.location": "right",
+  "workbench.preferredDarkColorTheme": "Default Dark+",
+
+  // --- Configurações do Editor ---
+  "editor.minimap.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.columnSelection": false,
+  "editor.renderControlCharacters": false,
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.lineHeight": 18,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnPaste": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [80, 120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+
+  // --- Configurações do Terminal ---
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish"
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.defaultProfile.linux": "",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.env.windows": {},
+
+  // --- Configurações de Arquivos ---
+  "files.trimFinalNewlines": true,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/node_modules": true
+  },
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json"
+  },
+
+  // --- Configurações de Migração de Arquivos ---
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  // --- Configurações do Breadcrumbs ---
+  "breadcrumbs.enabled": true,
+
+  // --- Configurações do Git ---
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.statusBar.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "githubPullRequests.pullBranch": "never",
+  "gitlens.graph.minimap.enabled": false,
+  "gitlens.graph.scrollMarkers.additionalTypes": [
+    "localBranches",
+    "stashes",
+    "tags"
+  ],
+
+  // --- Configurações de Sugestões ---
+  "typescript.tsserver.log": "off",
+  "javascript.suggest.autoImports": true,
+  "typescript.suggest.autoImports": true,
+
+  // --- Configurações de Prettier ---
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // --- Configurações de Emmet ---
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // --- Configurações do Material Icon Theme ---
+  "material-icon-theme.activeIconPack": "nest",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe"
+  },
+  "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    "*.proto": "3d"
+  },
+
+  // --- Configurações do Explorer ---
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "explorer.sortOrder": "type",
+  "explorer.confirmDragAndDrop": false,
+
+  // --- Configurações de Associacao de Editor ---
+  "workbench.editorAssociations": {
+    "*.sqlite": "default"
+  }
+}
