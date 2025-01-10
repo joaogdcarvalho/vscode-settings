@@ -1,5 +1,7 @@
 # VSCode Settings
 
+## Descrição do Projeto
+
 Este repositório contém um arquivo de configurações personalizadas para o **Visual Studio Code**. Ele tem como objetivo otimizar a experiência de desenvolvimento, com foco em um ambiente visual confortável, produtividade e integração com ferramentas como Git, Prettier e Emmet.
 
 ## Como Usar
@@ -42,4 +44,10 @@ Este repositório contém um arquivo de configurações personalizadas para o **
 - Facilidade de navegação e gerenciamento de projetos com o Explorer e a sidebar.
 - Integração eficiente com ferramentas como **Prettier** e **Git**.
 
-Essas configurações ajudam a criar um fluxo de trabalho mais fluido e eficiente no VSCode. Sinta-se à vontade para personalizar conforme suas necessidades!
+## Contribuindo
+
+Sinta-se à vontade para contribuir com este projeto através de pull requests e relatórios de problemas. Qualquer contribuição é bem-vinda!
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais informações.
