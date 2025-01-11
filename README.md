@@ -50,4 +50,4 @@ Sinta-se à vontade para contribuir com este projeto através de pull requests e
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para obter mais informações.
+Este projeto está licenciado sob a Licença MIT.
